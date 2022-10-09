@@ -28,7 +28,7 @@
 }
 
 
-.tms {
+#tms {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -40,7 +40,7 @@
     font-weight: bold;
 }
 
-.pp {
+#pp {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -51,7 +51,7 @@
     background: transparent;
     font-weight: bold;
 }
-.tms:hover {
+#tms:hover {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -63,7 +63,7 @@
     font-weight: bold;
 }
 
-.pp:hover {
+#pp:hover {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -83,6 +83,13 @@
         margin-top: 7px;
     }
     #navbarMenu {
-        left: 50%;
+        position: absolute;
+        left: 0%;
+    }
+    #tms {
+        font-size: 9px;
+    }
+    #pp {
+        font-size: 9px;
     }
 }
