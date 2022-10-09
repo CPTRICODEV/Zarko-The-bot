@@ -83,13 +83,14 @@
 @media only screen and (max-width: 600px) {
     #login {
         margin-top: 7px;
+        margin-left: -7px;
+        margin-right: -7px;
     }
     #invite {
         margin-top: 7px;
-    }
-    #navbarMenu {
-        position: absolute;
-        left: 25%;
+        margin-left: -7px;
+        margin-right: -7px;
+        
     }
     .tms {
         position: absolute;
