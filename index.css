@@ -7,7 +7,6 @@
     list-style: none;
 } 
 #header {
-   
     position: absolute;
     top: 50%;
     left: 50%;
@@ -15,13 +14,13 @@
     text-align: center;
 }
 
-#header > h1 {
+#title-zarko {
     color: white;
     font-size: 27px;
     margin-bottom: 7px;
 }
 
-#header > h5 {
+#undertitle-zarko1 #undertitle-zarko2 {
     color: rgb(146, 146, 146);
     font-size: 11px;
     font-weight: 500;
@@ -85,5 +84,48 @@
     #navbarMenu {
         position: absolute;
         left: 0%;
+    }
+    .tms {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 24px;
+        color: white;
+        font-size: 11px;
+        text-decoration: none;
+        background: transparent;
+        font-weight: bold;
+        width: 100%;
+    }
+    .pp {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 45px;
+        color: white;
+        font-size: 11px;
+        text-decoration: none;
+        background: transparent;
+        font-weight: bold; 
+        width: 100%;
+    }
+    #title-zarko {
+        color: white;
+        font-size: 15px;
+        margin-bottom: 7px;
+        width: 100%;
+    }
+    
+    .undertitle-zarko1 {
+        color: rgb(146, 146, 146);
+        font-size: 8px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .undertitle-zarko {
+        color: rgb(146, 146, 146);
+        font-size: 8px;
+        font-weight: 500;
+        width: 100%;
     }
 }
