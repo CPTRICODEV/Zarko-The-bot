@@ -20,17 +20,12 @@
     margin-bottom: 7px;
 }
 
-.undertitle-zarko1 {
+.undertitle-zarko {
     color: rgb(146, 146, 146);
     font-size: 11px;
     font-weight: 500;
 }
 
-.undertitle-zarko2 {
-    color: rgb(146, 146, 146);
-    font-size: 11px;
-    font-weight: 500;
-}
 
 
 .tms {
@@ -123,16 +118,11 @@
         width: 100%;
     }
     
-    .undertitle-zarko1 {
+    .undertitle-zarko {
         color: rgb(146, 146, 146);
         font-size: 8px;
         font-weight: 500;
         width: 100%;
     }
-    .undertitle-zarko2 {
-        color: rgb(146, 146, 146);
-        font-size: 8px;
-        font-weight: 500;
-        width: 100%;
-    }
+
 }
