@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #160534;
+    font-family: 'Poppins',sans-serif;
+    list-style: none;
+} 
+#header {
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    text-align: center;
+}
+
+#header > h1 {
+    color: white;
+    font-size: 27px;
+    margin-bottom: 7px;
+}
+
+#header > h5 {
+    color: rgb(146, 146, 146);
+    font-size: 11px;
+    font-weight: 500;
+}
+
+
+.tms {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 24px;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    background: transparent;
+    font-weight: bold;
+}
+
+.pp {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    background: transparent;
+    font-weight: bold;
+}
+.tms:hover {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 24px;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    background: transparent;
+    font-weight: bold;
+}
+
+.pp:hover {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    background: transparent;
+    font-weight: bold;
+}
